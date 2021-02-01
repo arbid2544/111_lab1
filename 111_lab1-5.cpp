@@ -14,7 +14,7 @@ int main()
         if(N[i]>max)
         {
             max=N[i];
-            p=i+1;
+            p=i;
         }
     }
 	printf("%d %d",p,max); 
