@@ -17,6 +17,5 @@ int main()
             p=i+1;
         }
     }
-	printf("%d %d",p,max);
-	return 0;  
+	printf("%d %d",p,max); 
 }
