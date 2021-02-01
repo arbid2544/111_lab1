@@ -4,7 +4,7 @@ int main()
 	int n,i=0;
 	scanf("%d",&n);
 	int N[n];
-	for(i=0;i<n;i++)
+	for(i;i<n;i++)
 	{
 	  scanf("%d",&N[i]);
 	}	
