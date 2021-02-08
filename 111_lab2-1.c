@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main()
 {
-   printf("A");
+    int a,b,c;
+    scanf("%d\n%d\n%d",&a,&b,&b);
+    return 0;
 }
