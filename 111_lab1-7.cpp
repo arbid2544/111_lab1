@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 int main()
 {
     float a;
@@ -7,7 +6,7 @@ int main()
     scanf("%f",&a);
     a=a*100;
     e=a;
-    b=(floor)(a/100);
+    b=(int)(a/100);
     //printf("%d ",b);
     c=e%100;
     //printf("%d",c);
@@ -31,5 +30,5 @@ int main()
           printf("%d:0%d a.m.",b,c);
        else
           printf("%d:%d a.m.",b,c);
-    } 
+    }
 }
